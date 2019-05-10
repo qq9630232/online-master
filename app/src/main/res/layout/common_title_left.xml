@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/commont_title_left_rl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+        android:id="@+id/commont_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y44"
+        >
+    <ImageView
+        android:id="@+id/title_widget_back_iv"
+        android:layout_width="@dimen/x40"
+        android:layout_height="@dimen/y38"
+        android:layout_marginLeft="@dimen/x40"
+        android:src="@drawable/return_icon"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/title_widget_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/title_widget_back_iv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x30"
+        android:textColor="@color/black_text_max"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_15"
+        android:text="title"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>

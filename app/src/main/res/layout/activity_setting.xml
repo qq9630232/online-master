@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_lighter_bg"
+    >
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:background="@color/light_gray2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="60dp">
+            <TextView
+                android:id="@+id/setting_back_btn"
+                android:text="设置"
+                android:textColor="@color/black_text_max"
+                android:drawableLeft="@drawable/return_icon"
+                android:textSize="@dimen/text_size_15"
+                android:drawablePadding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/setting_login_password_item"
+            android:text="@string/set_login_password"
+            android:textColor="@color/black_text_max"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/text_size_14"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/right_arrows"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:background="@color/white"
+            android:paddingBottom="15dp"
+            android:paddingRight="20dp"
+            android:layout_height="50dp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/setting_feedback"-->
+            <!--android:text="@string/feedback"-->
+            <!--android:textColor="@color/black_text_max"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textSize="@dimen/text_size_14"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textStyle="bold"-->
+            <!--android:drawableRight="@drawable/right_arrows"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:paddingTop="15dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:paddingBottom="15dp"-->
+            <!--android:paddingRight="20dp"-->
+            <!--android:layout_height="50dp"   />-->
+        <RelativeLayout
+            android:id="@+id/clear_cache"
+
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:text="@string/clear_cache"
+                android:layout_centerVertical="true"
+
+                android:textColor="@color/black_text_max"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="20dp"
+                />
+            <TextView
+                android:id="@+id/cache_size"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="42dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black_text_0.4"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/right_arrows"
+                android:layout_width="7dp"
+                android:layout_height="12dp" />
+        </RelativeLayout>
+
+        <!--<TextView-->
+            <!--android:text="@string/give_us_encouragement"-->
+            <!--android:textColor="@color/black_text_max"-->
+            <!--android:textSize="@dimen/text_size_14"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textStyle="bold"-->
+            <!--android:drawableRight="@drawable/right_arrows"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:paddingTop="15dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:paddingBottom="15dp"-->
+            <!--android:paddingRight="20dp"-->
+            <!--android:layout_height="50dp"  />-->
+        <TextView
+            android:id="@+id/setting_about_us_item"
+            android:text="@string/about_us"
+            android:textColor="@color/black_text_max"
+            android:textSize="@dimen/text_size_14"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/right_arrows"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:background="@color/white"
+            android:paddingBottom="15dp"
+            android:paddingRight="20dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/log_out_btn"
+        android:text="@string/log_out"
+        android:textSize="@dimen/text_size_15"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/common_peack_2_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="335dp"
+        android:layout_height="45dp" />
+</RelativeLayout>

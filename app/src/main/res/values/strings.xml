@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">在线资讯</string>
+    <!-- login  start -->
+    <string name="login_name_hint">邮箱</string>
+    <string name="login_pwd_hint">密码</string>
+    <string name="re_login_pwd_hint">确认密码</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册</string>
+    <string name="login_register_link">注册账号</string>
+    <string name="register_login_link">直接登录</string>
+    <string name="user_sign">签名&#032;&#058;</string>
+
+    <!-- 状态视图  -->
+    <string name="loading">加载中...</string>
+    <string name="text_empty">还没有数据呢！</string>
+    <string name="text_nonet">网络异常！</string>
+    <string name="text_retry">点击重试</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 新闻 -->
+    <string name="news_commentsize">%1$s评论</string>
+    <string name="detail_header_tv">下拉一下，看点儿不一样的</string>
+    <string name="news_toast">已为您推荐了%1$s条新资讯</string>
+    <string name="finish">完成</string>
+    <string name="edit">编辑</string>
+    <string name="willUrl">http://will-ls.top/</string>
+    <string name="githubUrl">https://github.com/Will-Ls</string>
+    <string name="email">liwanglin_001@163.com</string>
+    <string name="saveing">正在保存...</string>
+    <string name="pushing">正在提交...</string>
+    <string name="releaseing">正在发布...</string>
+    <string name="locationing">正在定位...</string>
+    <string name="customer_service_phone">客服电话</string>
+    <string name="_010_5289614">010-520614</string>
+    <string name="customer_work_time">工作时间：周一到周五 9：00-18：00</string>
+    <string name="call">呼叫</string>
+    <string name="about_us">关于我们</string>
+    <string name="give_us_encouragement">给我们鼓励</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="set_login_password">设置登录密码</string>
+    <string name="log_out">退出登录</string>
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="change_success">修改成功</string>
+    <string name="sure_to_modify">确认修改</string>
+
+    <string-array name="news_channel">
+        <item>头条</item>
+        <item>娱乐</item>
+        <item>军事</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>历史</item>
+        <item>台湾</item>
+        <item>汽车</item>
+        <item>社会</item>
+        <item>时尚</item>
+        <item>国学</item>
+        <item>文化</item>
+        <item>星座</item>
+        <item>读书</item>
+        <item>游戏</item>
+        <item>电影</item>
+        <item>国际</item>
+    </string-array>
+
+    <string-array name="news_channel_id">
+        <item>SYLB10,SYDT10</item>
+        <item>YL53,FOCUSYL53</item>
+        <item>JS83,FOCUSJS83</item>
+        <item>TY43,FOCUSTY43,TYLIVE,TYTOPIC</item>
+        <item>CJ33,FOCUSCJ33,HNCJ33</item>
+        <item>KJ123,FOCUSKJ123</item>
+        <item>LS153,FOCUSLS153</item>
+        <item>TW73</item>
+        <item>QC45,FOCUSQC45</item>
+        <item>SH133,FOCUSSH133</item>
+        <item>SS78,FOCUSSS78</item>
+        <item>GXPD,FOCUSGXPD</item>
+        <item>WH25,FOCUSWH25</item>
+        <item>XZ09,FOCUSXZ09</item>
+        <item>DS57,FOCUSDS57</item>
+        <item>YX11,FOCUSYX11</item>
+        <item>DYPD</item>
+        <item>GJPD</item>
+    </string-array>
+    <string-array name="camera_gallery">
+        <item>相机</item>
+        <item>图片</item>
+    </string-array>
+</resources>
