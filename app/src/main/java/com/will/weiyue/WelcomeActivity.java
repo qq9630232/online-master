@@ -77,7 +77,7 @@ public class WelcomeActivity extends BaseActivity  {
 
         //必应每日壁纸 来源于 https://www.dujin.org/fenxiang/jiaocheng/3618.html.
 //        ImageLoaderUtil.LoadImage(this,getDrawable(R.mipmap.ic_launch), ivAd);
-        Glide.with(this).load(R.mipmap.ic_launch).into(ivAd);
+        Glide.with(this).load(R.mipmap.main_bg).into(ivAd);
 
         mCompositeDisposable.add(countDown(3).doOnSubscribe(new Consumer<Disposable>() {
             @Override

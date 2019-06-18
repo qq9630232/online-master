@@ -77,9 +77,9 @@ public class WebActivity extends BaseActivity implements IndexContract.View {
 
     @Override
     public void initData() {
+
         mPresenter = new IndexPresenter(WebActivity.this);
 
-        initView();
         progressDialog = new DownloadProgressDialog(this);
         progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         // 设置ProgressDialog 标题
@@ -94,6 +94,8 @@ public class WebActivity extends BaseActivity implements IndexContract.View {
         // 设置ProgressDialog 是否可以按退回按键取消
         progressDialog.setCancelable(false);
         progressDialog.setMax(100);
+        initView();
+
     }
 
     @Override

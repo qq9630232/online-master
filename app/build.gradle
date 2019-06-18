@@ -6,7 +6,7 @@ android {
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.will.aikan"
+        applicationId "com.wy.online"
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVersion
         versionCode rootProject.ext.android.versionCode
@@ -14,15 +14,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
                 JPUSH_PKGNAME: applicationId,
-                JPUSH_APPKEY : "59b86a99586bd892ebfb87b9", //JPush上注册的包名对应的appkey.
+                JPUSH_APPKEY : "d31d9171e432f4a2506b9534", //JPush上注册的包名对应的appkey.
                 JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
         ]
 
-        sourceSets {
-            main {
-                jniLibs.srcDirs = ['libs']
-            }
-        }
+
 
         ndk {
             // 设置支持的SO库架构

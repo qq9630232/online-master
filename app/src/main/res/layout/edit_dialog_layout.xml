@@ -52,7 +52,9 @@
             android:text="取消"
             android:focusable="true"
             android:gravity="center"
-            android:background="@drawable/login_button_selector"
+            android:textColor="@color/white"
+
+            android:background="@color/colorPrimary"
             android:layout_margin="15dp"
             />
         <Button
@@ -62,9 +64,10 @@
             android:layout_height="45dp"
             style="@style/TextTheme1.tipstheme"
             android:text="确定"
+            android:textColor="@color/white"
             android:focusable="true"
             android:gravity="center"
-            android:background="@drawable/login_button_selector"
+            android:background="@color/colorPrimary"
             android:layout_margin="15dp"
             />
 
